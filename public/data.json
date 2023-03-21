@@ -1,0 +1,12 @@
+{
+    "cover": "./images/bg-pattern-card.svg",
+    "profile_img": "./images/image-victor.jpg",
+    "name": "Victor Crest",
+    "friends_count": 26,
+    "location": "London",
+    "status": {
+        "followers": "80K",
+        "likes": "803K",
+        "photos": "1.4K"
+    }
+}

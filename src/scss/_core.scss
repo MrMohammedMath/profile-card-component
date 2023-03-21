@@ -1,1 +1,30 @@
 //  contains variables, resets, mixins, and other similar styles
+
+:root {
+    // - Font size (name and stats): 18px
+    --main-bg: hsl(185, 75%, 39%);
+    --card-bg: hsl(0, 0%, 100%);
+    --primary-color: hsl(229, 23%, 23%);
+    --secondary-color: hsl(227, 10%, 46%);
+    --tertiary-color: hsl(0, 0%, 59%);
+
+    color: unset;
+
+    --radius: 15px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Kumbh Sans', sans-serif; // Weights: 400, 700
+
+    // border: 1px red solid;
+}
+
+@mixin desktop {
+    @media screen and (min-width: 40em) {
+        @content;
+    }
+}
