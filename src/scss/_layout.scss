@@ -9,6 +9,12 @@ body {
     --size2: 550px;
     background-size: var(--size1) var(--size1), var(--size2) var(--size2);
     background-position: calc(-1 * var(--size1) / 2) calc(-1 * var(--size1) / 2), calc(100vw - var(--size2) / 2 + 50px) calc(100vh - var(--size2) / 2);
+
+    @include desktop {
+        --size1: 1100px;
+        --size2: 1100px;
+        background-position: calc(-1 * var(--size1) / 2 + 100px) calc(-1 * var(--size1) / 2), calc(100vw - var(--size2) / 2 - 170px) calc(100vh - var(--size2) / 2 + 200px);
+    }
 }
 
 main {
